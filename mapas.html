@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : GoodLife 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20121013
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>RLA 5051 Cuba</title>
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Abel|Satisfy' rel='stylesheet' type='text/css' />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  <script type="text/javascript" src="gmaps.js"></script>
+<!--[if IE 6]>
+<link href="default_ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<script type="text/javascript">
+    var map;
+    $(document).ready(function(){
+      map = new GMaps({
+        div: '#map',
+        lat: 22.514756,
+        lng: -83.473130
+      });
+      map.addMarker({
+        lat: 22.536889,
+        lng: -83.479692,
+        title: 'CPA Jesus Suarez Soca',
+        details: {
+          database_id: 42,
+          author: 'HPNeo'
+        },
+        click: function(e){
+          if(console.log)
+            console.log(e);
+          alert('You clicked in this marker');
+        }
+      });
+      map.addMarker({
+        lat: 22.514756,
+        lng: -83.473130,
+        title: 'Area de estudio',
+        infoWindow: {
+          content: '<p>HTML Content</p>'
+        }
+      });
+    });
+  </script>
+</head>
+<body>
+<div id="header-wrapper">
+	<div id="header">
+		<div id="logo">
+			<h1><a href="#">RLA5051</a></h1>
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="index.html" accesskey="1" title="">Inicio</a></li>
+				<li><a href="activ.html" accesskey="2" title="">Actividades</a></li>
+				<li><a href="result.html" accesskey="3" title="">Resultados</a></li>
+				<li class="current_page_item"><a href="#" accesskey="4" title="">Mapas</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</div>
+<div id="footer-wrapper">
+	<div id="footer-content">
+		<div id="fbox1">
+			
+			
+            <img src="images/campo.jpg" alt="" width="320">
+			<p>Utilización de radionucleidos ambientales como indicadores de la degradación de las tierras en los ecosistemas de América Latina, el Caribe y la Antártida (ARCAL C)</p>
+		  <p>&nbsp;</p>
+			<ul class="style2">
+				<li class="first"><a href="http://http://arcal.unsl.edu.ar/" target="_blank">Proyecto ARCAL RLA 5/051.</a></li>
+				<li><a href="http://geoportal-arcal.github.com" target="_blank">Geoportal ARCAL RLA/051</a></li>
+                <li><a href="documentos/cn191-43P.pdf" target="_blank">Poster con resultados del trabajo.</a></li>
+				<li><a href="http://www.cphr.edu.cu" target="_blank"> CPHR</a></li>
+				<li><a href="http://www.iaea.org" target="_blank">OIEA</a></li>
+			</ul>
+			
+		</div>
+		<div id="fbox2">
+			<h2><span>Mapas.</span></h2>
+			<h3><span>Sitio de estudio en Cuba.</span></h3>
+			<p>&nbsp;</p>
+		  <p></p>
+			<div id="map"></div>
+            <br />
+          <p><strong>Nombre:</strong> Cooperativa de Producción Agrícola “Jesús Suárez Soca”</p>
+          <p><strong>Municipio:</strong> Consolación del Sur, Provincia: Pinar del Río</p>
+          <p><strong>Coordenadas:</strong> 22º 32´ 12.80´´ N y 83º 28´46.89´´ Oeste</p>
+          <p>&nbsp;  </p>
+		  <p>&nbsp;</p>
+		  <blockquote>&nbsp; </blockquote>
+<iframe width='500' height='300' frameBorder='0' src='http://a.tiles.mapbox.com/v3/rla5051cuba.map-tnyp700x.html#13/22.52167500512131/-83.48156942143063'></iframe>
+
+
+      </div>
+	</div>
+</div>
+<div id="page-wrapper">
+	
+</div>
+<div id="footer">
+	<p>Copyright (c) 2012 Centro de Protección e Higiene de las Radiaciones </p>
+</div>
+</body>
+</html>
