@@ -1,0 +1,23 @@
+<kml>
+  <Document>
+    <Placemark>
+      <name>my first point</name>
+      <Style id="myFirstStyle">
+        <IconStyle>
+          <color>a1ff00ff</color>
+          <scale>1.5</scale>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+          </Icon>
+        </IconStyle>
+        <LabelStyle>
+          <color>7fffaaff</color>
+          <scale>1.5</scale>
+        </LabelStyle>
+      </Style>        
+      <Point>
+        <coordinates>-66.09993326298255,-33.56312777383666,0</coordinates> 
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
